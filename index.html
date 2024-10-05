@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./styles/fonts.css"/>
-    <link rel="stylesheet" href="./styles/global.css"/>
-    <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="header">
       <nav>
         <ul class="header__menu">
-          <li class="menu__item menu__item_no-bullit">
+          <li class="menu__item_no-bullit">
             <a aria-current="page">главная</a>
           </li>
 
           <li class="menu__item">
-            <a href="#0">посмотреть лоты</a>
+            <a href="#lots">посмотреть лоты</a>
           </li>
 
           <li class="menu__item">
-            <a href="#0">об аукционе</a>
+            <a href="#about-auction">об аукционе</a>
           </li>
         </ul>
       </nav>
 
       <a class="link_no-line" href="#0">
-        <img class="header__logo"
+        <img
+          class="header__logo"
           src="./images/logo-black.svg"
-          alt="логотип: слова оно тебе надо в квадрате"/>
+          alt="логотип: слова оно тебе надо в квадрате"
+        />
       </a>
 
       <address class="contacts header__contacts">
-        <a href="tel:+99995555555">+9 999 555 5555</a><br>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
-        наб. Принсенграхт 263-<br>
+        <a href="tel:+99995555555">+9 999 555 5555</a><br />
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
+        наб. Принсенграхт 263-<br />
         265, Амстердам
       </address>
     </header>
@@ -44,9 +46,18 @@
     <main>
       <section class="intro overlay">
         <h1 class="intro__title">
-          <span class="aligned-text_left">о<span class="letter-spacing-extended">но</span></span>
-          <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
-          <span class="aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
+          <span class="aligned-text_left"
+            >о<span class="letter-spacing-extended">но</span></span
+          >
+          <span class="aligned-text_center"
+            >те<span class="letter-spacing-extended">бе</span></span
+          >
+          <span class="aligned-text_right"
+            ><span class="letter-spacing-extended">н</span>ад<span
+              class="no-letter-spacing"
+              >о</span
+            ></span
+          >
         </h1>
         <div class="intro__container">
           <p class="intro__subline">Аукцион вещей, в которые никто не верил</p>
@@ -54,13 +65,15 @@
         </div>
       </section>
 
-      <section class="lots">
+      <section class="lots" id="lots">
         <h2 class="section__title lots__title">Лоты</h2>
         <ul class="lots__list">
           <li class="lots__list-item">
             <a class="link_no-line" href="#0">
               <article class="card card_film overlay">
-                <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -73,7 +86,9 @@
           <li class="lots__list-item">
             <a class="link_no-line" href="#0">
               <article class="card card_book overlay">
-                <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -89,7 +104,9 @@
           <li class="lots__list-item">
             <a class="link_no-line" href="#0">
               <article class="card card_canvas overlay">
-                <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -104,9 +121,9 @@
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
 
-      <section class="about-auction">
+      <section class="about-auction" id="about-auction">
         <h2 class="section__title about-auction__title">об аукционе</h2>
-        <div class="about-auction__logo-conteiner logo-background">
+        <div class="about-auction__logo-container">
           <img
             class="about-auction__logo"
             src="./images/logo-white.svg"
@@ -134,43 +151,46 @@
       </section>
 
       <footer class="footer">
-        <address class="contacts footer__contacts">
-          <a href="tel:+99995555555">+9 999 555 5555</a><br>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
-          наб. Принсенграхт 263-<br>
+        <address class="contacts">
+          <a href="tel:+99995555555">+9 999 555 5555</a><br />
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
+          наб. Принсенграхт 263-<br />
           265, Амстердам
         </address>
 
-        <nav>
-          <ul class="footer__menu">
-            <li class="menu__item menu__item_no-bullit">
+        <nav class="footer__menu">
+          <ul>
+            <li class="menu__item_no-bullit">
               <a aria-current="page">главная</a>
             </li>
 
             <li class="menu__item menu__item_no-bullit">
-              <a href="#0">посмотреть лоты</a>
+              <a href="#lots">посмотреть лоты</a>
             </li>
 
             <li class="menu__item menu__item_no-bullit">
-              <a href="#0">об аукционе</a>
+              <a href="#about-auction">об аукционе</a>
             </li>
           </ul>
         </nav>
 
         <ul class="social-media">
-          <li class="menu__item_no-bullit">
+          <li class="social-media__item menu__item_no-bullit">
             <a class="link_no-line" href="#0" target="_blank">
-              <img src="./images/yt.svg" alt="логотип-ссылка на ютуб"/>
+              <img src="./images/yt.svg" alt="логотип-ссылка на ютуб" />
             </a>
           </li>
-          <li class="menu__item_no-bullit">
+          <li class="social-media__item menu__item_no-bullit">
             <a class="link_no-line" href="#0" target="_blank">
-              <img src="./images/vk.svg" alt="логотип-ссылка на вконтакте"/>
+              <img src="./images/vk.svg" alt="логотип-ссылка на вконтакте" />
             </a>
           </li>
-          <li class="menu__item_no-bullit">
+          <li class="social-media__item menu__item_no-bullit">
             <a class="link_no-line" href="#0" target="_blank">
-              <img src="./images/pinterest.svg" alt="логотип-ссылка на пинтерест"/>
+              <img
+                src="./images/pinterest.svg"
+                alt="логотип-ссылка на пинтерест"
+              />
             </a>
           </li>
         </ul>
